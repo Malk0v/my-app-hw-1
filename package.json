@@ -2,7 +2,7 @@
     "name": "my-app-hw-1",
     "version": "0.1.0",
     "private": true,
-    "homepage": "https://Malk0v.github.io/my-app-hw-1",
+    "homepage": "https://Malk0v.github.io/my-app-hw-1/build",
     "dependencies": {
         "@testing-library/jest-dom": "^5.16.5",
         "@testing-library/react": "^13.4.0",
