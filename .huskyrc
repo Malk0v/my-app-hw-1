@@ -1,12 +1,12 @@
-// {
-// "hooks": {
-//         "pre-commit": "npx lint-staged"
-//     }
-// }
-
 {
-  "hooks": {
-    "pre-commit": "npm run lint",
-    "pre-push": "npm run test"
-  }
+"hooks": {
+        "pre-commit": "lint-staged"
+    }
 }
+
+// {
+//   "hooks": {
+//     "pre-commit": "npm run lint",
+//     "pre-push": "npm run test"
+//   }
+// }
