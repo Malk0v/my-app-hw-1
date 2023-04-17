@@ -1,25 +1,23 @@
 import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import PaintingList from './components/paintingList';
+import data from './components/data.json';
+import Section from './components/section';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default function App() {
+    return (
+        <div className="App">
+            <header className="App-header">
+                <div>
+                    <Section title="наш топовый магаз" />
+                    <Section title="продукция по предзаказу" />
+                    <Section title="готовая продукция" />
+                    <PaintingList items={data} />
+                </div>
+
+                <img src={logo} className="App-logo" alt="logo" />
+            </header>
+        </div>
+    );
 }
-
-export default App;
