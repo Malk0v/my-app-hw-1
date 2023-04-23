@@ -1,1 +1,1 @@
-import profile from './profile.css';
+import './profile.css';
