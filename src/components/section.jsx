@@ -1,7 +1,12 @@
 import PropTypes from 'prop-types';
 
-export default function section({ title }) {
-    return <section>{title && <h2>{title}</h2>}</section>;
+export default function section({ title, children }) {
+    return (
+        <section>
+            {title && <h2>{title}</h2>}
+            {children}
+        </section>
+    );
 }
 
 section.propTypes = {

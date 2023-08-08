@@ -1,0 +1,21 @@
+.profile {
+    margin: 50px;
+    padding: 10px;
+    outline: 2px double darkolivegreen;
+    border-radius: 7px;
+}
+
+.description {
+    padding: 10px;
+    outline: 2px double rgb(211, 217, 200);
+    background-color: rgb(38, 9, 55);
+    border-radius: 7px;
+}
+
+.stats {
+    padding: 10px;
+    margin-top: 10px;
+    outline: 2px double rgb(207, 214, 196);
+    background-color: rgb(38, 9, 55);
+    border-radius: 7px;
+}

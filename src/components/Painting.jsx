@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import defaultImage from '../defImage.webp';
+import defaultImage from './defImage.webp';
 
 export default function Painting({
     url = defaultImage,
@@ -10,7 +10,7 @@ export default function Painting({
     quantity,
 }) {
     return (
-        <div>
+        <div className="product">
             <img src={url ?? defaultImage} alt={title} width="480" />
             <h2>{title}</h2>
             <p>

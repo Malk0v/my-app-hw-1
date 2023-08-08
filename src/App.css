@@ -2,6 +2,9 @@
     text-align: center;
 }
 
+.a {
+    outline: 1px solid red;
+}
 .App-logo {
     height: 40vmin;
     pointer-events: none;
@@ -14,7 +17,7 @@
 }
 
 .App-header {
-    background-color: #282c34;
+    background-color: #2a3548;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -28,6 +31,12 @@
     color: #61dafb;
 }
 
+.product {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(95, 96, 99);
+}
 li {
     list-style: none;
 }

@@ -1,0 +1,25 @@
+.stat-list {
+    padding: 0;
+    outline: 1px solid rgb(10, 10, 80);
+    display: flex;
+    justify-content: center;
+    border-radius: 17px;
+    box-shadow: 1px 2px 4px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 15px;
+    background-color: blueviolet;
+    box-shadow: 1px 2px 4px rgb(143, 117, 182);
+    font-weight: 300;
+}
+
+.item:hover {
+    font-weight: 500;
+    color: rgb(130, 226, 226);
+}
